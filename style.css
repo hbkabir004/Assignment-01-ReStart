@@ -22,10 +22,11 @@ body{
 h1{
     color: #575757;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 1000;
 }
-p{
+#first-paragraph{
     color: #575757;
+    font-weight: 600;
 }
 .button-link{
     text-decoration: none;
@@ -47,4 +48,20 @@ p{
 }
 .half-width img{
     width: 70%;
+}
+.about-me{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 400;
+    
+}
+#about{
+    margin-top: 150px;
+    margin-right: 5%;
+    align-items: center;
+}
+#img-about{
+    width: 50%;
+    margin-left: 10%;
 }
